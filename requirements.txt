@@ -1,0 +1,53 @@
+# Data analysis
+numpy
+pandas
+scipy
+openpyxl
+xlrd
+
+# Visualization
+matplotlib
+seaborn
+plotly
+wordcloud
+
+# Machine learning
+scikit-learn
+imbalanced-learn
+xgboost
+joblib
+
+# NLP and text processing
+nltk
+spacy
+textblob
+regex
+beautifulsoup4
+lxml
+
+# Deep learning and pretrained NLP models
+torch
+torchvision
+transformers
+datasets
+tokenizers
+safetensors
+accelerate
+
+# Web apps and APIs
+streamlit
+fastapi
+uvicorn[standard]
+requests
+httpx
+python-dotenv
+pydantic
+python-multipart
+groq
+
+# Notebooks and utilities
+jupyter
+ipykernel
+pillow
+tqdm
+ipywidgets

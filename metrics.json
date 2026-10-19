@@ -1,0 +1,108 @@
+{
+  "best_model": "logistic_regression",
+  "total_unique_messages": 5160,
+  "train_size": 4128,
+  "test_size": 1032,
+  "split": "80/20",
+  "random_state": 42,
+  "classes": [
+    "ham",
+    "spam"
+  ],
+  "results": {
+    "logistic_regression": {
+      "accuracy": 0.9806201550387597,
+      "spam_precision": 0.9029850746268657,
+      "spam_recall": 0.9453125,
+      "spam_f1": 0.9236641221374046,
+      "classification_report": {
+        "ham": {
+          "precision": 0.9922048997772829,
+          "recall": 0.9856194690265486,
+          "f1-score": 0.9889012208657048,
+          "support": 904.0
+        },
+        "spam": {
+          "precision": 0.9029850746268657,
+          "recall": 0.9453125,
+          "f1-score": 0.9236641221374046,
+          "support": 128.0
+        },
+        "accuracy": 0.9806201550387597,
+        "macro avg": {
+          "precision": 0.9475949872020744,
+          "recall": 0.9654659845132743,
+          "f1-score": 0.9562826715015547,
+          "support": 1032.0
+        },
+        "weighted avg": {
+          "precision": 0.9811388749524249,
+          "recall": 0.9806201550387597,
+          "f1-score": 0.980809797767621,
+          "support": 1032.0
+        }
+      },
+      "confusion_matrix_labels": [
+        "ham",
+        "spam"
+      ],
+      "confusion_matrix": [
+        [
+          891,
+          13
+        ],
+        [
+          7,
+          121
+        ]
+      ]
+    },
+    "naive_bayes": {
+      "accuracy": 0.9757751937984496,
+      "spam_precision": 0.9904761904761905,
+      "spam_recall": 0.8125,
+      "spam_f1": 0.8927038626609443,
+      "classification_report": {
+        "ham": {
+          "precision": 0.9741100323624595,
+          "recall": 0.9988938053097345,
+          "f1-score": 0.9863462588749318,
+          "support": 904.0
+        },
+        "spam": {
+          "precision": 0.9904761904761905,
+          "recall": 0.8125,
+          "f1-score": 0.8927038626609443,
+          "support": 128.0
+        },
+        "accuracy": 0.9757751937984496,
+        "macro avg": {
+          "precision": 0.982293111419325,
+          "recall": 0.9056969026548672,
+          "f1-score": 0.939525060767938,
+          "support": 1032.0
+        },
+        "weighted avg": {
+          "precision": 0.9761399434463331,
+          "recall": 0.9757751937984496,
+          "f1-score": 0.9747316981042047,
+          "support": 1032.0
+        }
+      },
+      "confusion_matrix_labels": [
+        "ham",
+        "spam"
+      ],
+      "confusion_matrix": [
+        [
+          903,
+          1
+        ],
+        [
+          24,
+          104
+        ]
+      ]
+    }
+  }
+}
